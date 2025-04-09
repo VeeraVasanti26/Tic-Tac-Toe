@@ -1,0 +1,90 @@
+body {
+  background-color: #663dff;
+  background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.o {
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+
+}
+.ret {
+  width: 180px;
+  height: 55px;
+  align-items: center;
+  align-self: center;
+  font-size: xx-large;
+  background-color: black;
+  color:white;
+  border:1px solid gold;
+  margin-top: 4px;
+  transition: background-color 0.5s,color 0.5s;
+}
+.ret:hover {
+  background-color: white;
+  color:black;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.to1 {
+width: 14%;
+ margin: auto;
+}
+h1 {
+  margin-top: 75px;
+  font-size: 40px;
+  font-style: arial;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  
+}
+button {
+  width:80px;
+  height: 80px;
+  font-size: 45px;
+  color: black;
+  background-color: rgb(168, 166, 166)smoke;
+  border: 1px solid grey;
+  display: inline;
+}
+div {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+}
+.to {
+ width: 20%;
+ margin: auto;
+
+}
+p {
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.set {
+  color: red;
+}
+.t {
+  color: black;
+}
+.pi {
+  background-color: rgb(133, 133, 250);
+  color:white;
+}
+.on {
+  background-color: rgb(251, 113, 180);
+  color: white;
+}
+.oto {
+  background-color: yellow;
+  color: white;
+}
