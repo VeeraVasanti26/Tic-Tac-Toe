@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 40px;
+  background-color: #663dff;
+  background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.form {
+  width: 400px;
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  background: url('Tic.jpg'); /* Ensure the path is correct */
+  background-size: cover;
+  background-position: center;
+  border-radius: 18px;
+  background-repeat: no-repeat;
+  color: white;
+  padding-bottom: 60px;
+  backdrop-filter: brightness(40%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  margin-left: 10px;
+}
+
+input {
+  background: rgba(250, 250, 250, 0.6);
+  border: none;
+  height: 35px;
+  width: 300px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.55);
+  margin-top: 7px;
+  border-radius: 100px;
+  padding-left: 17px;
+  margin-bottom: 9px;
+}
+
+.submit {
+  background-color: rgb(228, 158, 77);
+  color: white;
+  border: solid 1px gold;
+  height: 35px;
+  width: 250px;
+  border-radius: 100px;
+  margin-left: 38px;
+  font-size: 17px;
+  margin-top: 17px;
+  box-shadow: 0 0 7px rgba(114, 114, 114, 0.25);
+  transition: background-color 0.5s, color 0.5s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.y {
+  margin: 0;
+  text-align: center;
+  color: red;
+}
+
+.u {
+  text-align: center;
+  color: red;
+  margin: 20px;
+}
